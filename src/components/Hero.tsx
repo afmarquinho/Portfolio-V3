@@ -56,7 +56,7 @@ export const Hero = () => {
           {/* Fin del texto del hero */}
         </div>
         <div
-          className={`absolute bottom-0 left-0 right-0 z-10 opacity-45 flex flex-row justify-center items-center p-5 gap-5 font-semibold techonolies`}
+          className={`absolute bottom-0 left-0 right-0 z-10 opacity-45 hidden md:flex flex-row justify-center items-center p-5 gap-5 font-semibold`}
         >
           React <div className={`h-3 w-3 rounded-full bg-white`} />
           Next Js <div className={`h-3 w-3 rounded-full bg-white`} />

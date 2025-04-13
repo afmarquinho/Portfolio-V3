@@ -73,7 +73,7 @@ export const Content = () => {
         </a>
       </div> 
       {/* Fin Social Network */}
-      <main className="w-full text-white text-sm lg:text-base">
+      <main className="w-full text-white text-sm lg:text-base bg-indigo-950">
         <Hero />
         <Services />
         <Project /> 
