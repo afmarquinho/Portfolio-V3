@@ -1,5 +1,8 @@
 "use client";
 
+import perfil from '../../public/perfil2.jpg'
+
+import Image from "next/image";
 import { useState } from "react";
 
 export const About = () => {
@@ -17,7 +20,9 @@ export const About = () => {
             <div className="absolute w-48 md:w-72 h-48 md:h-72 transform rotate-6 bg-amber-500 z-30"></div>
 
             {/* <!-- foto --> */}
-            <div className="bg-about w-48 md:w-72 h-48 md:h-72 bg-cover bg-center bg-no-repeat relative z-40 shadow-lg"></div>
+            <div className="bg-about w-48 md:w-72 h-48 md:h-72 relative z-40 shadow-lg">
+              <Image src={perfil} alt='foto perfil' className={`object-cover object-top`} fill/>
+            </div>
           </div>
           {/* <!-- Fin foto --> */}
           <div className="p-10 w-full md:w-1/2 flex justify-center items-center text-xl">
