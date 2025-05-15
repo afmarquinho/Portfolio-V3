@@ -3,6 +3,7 @@ export * from './Contact';
 export * from './Content';
 export * from './GalleryGrid';
 export * from './Hero';
+export * from './Intro';
 export * from './Navbar';
 export * from './Project';
 export * from './ProjectModal';
